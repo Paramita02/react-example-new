@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 
-class SucessPage extends Component{
+class SuccessPage extends Component{
 render(){
  return(
   <div>
@@ -9,4 +9,4 @@ render(){
   );
  }
 }
-export default SucessPage;
+export default SuccessPage;

@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react'; 
 
-function FailurePage(props) {
-    return (
-        <div>
-            <h2>Login not successful!!!</h2>
-        </div>
-    );
+class FailurePage extends Component{
+render(){
+ return(
+  <div>
+   <h2>Successfully logged in..</h2>
+  </div>
+  );
+ }
 }
-
 export default FailurePage;
